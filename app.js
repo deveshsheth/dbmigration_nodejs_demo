@@ -8,7 +8,7 @@ const dataRouter = require('./routes/user.routes');
 dotenv.config();
 
 app.use(bodyParser.json());
-app.use('/api', dataRouter); // Mount the API endpoint
+app.use('/api', dataRouter);
 
 const port = process.env.PORT || 9696;
 app.listen(port, () => {
