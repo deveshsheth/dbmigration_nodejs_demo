@@ -43,7 +43,6 @@ db.Sequelize = Sequelize;
 
 const Users = require('./users.model')(sequelize, Sequelize.DataTypes);
 
-
 module.exports = {
   db,
   Users
